@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# run_project [PATH_TO_PROJECT.JSON] [INPUT_PATH] [OUTPUT_PATH]
+
+#./run_project.sh /projects/azores /home/twelch/src/azo-ous/outputs/flores-corvo-santamaria/shapefiles/santa-maria
+
+set -x
+
+docker run -it \
+    seasketch/heatmap:latest \
+    bash -c "cd /work && pytest"
