@@ -6,8 +6,8 @@ Provides a workspace for managing projects for generating `heatmaps` using [seas
 
 ### Install heatmap Docker image
 
-* Install Docker Desktop and open a terminal
-* Install heatmap docker image
+* Install Docker Desktop and make sure it is running
+* Open a terminal and install heatmap docker image
 ```
 docker pull seasketch/heatmap:latest
 ```
