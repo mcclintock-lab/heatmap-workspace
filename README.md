@@ -2,30 +2,34 @@
 
 Provides a workspace for managing projects for generating `heatmaps` using [seasketch/heatmap](https://github.com/seasketch/heatmap)
 
-## Getting started
+## Setup
+
+### Install heatmap Docker image
 
 * Install Docker Desktop and open a terminal
 * Install heatmap docker image
 ```
 docker pull seasketch/heatmap:latest
 ```
+
+### Setup workspace repo
+* Fork this repo to your Github organiation or account and clone it locally to your computer
 * Run tests
 ```
 ./scripts/run_tests.sh
 ```
 
-## Run the example
-
+* Run the example
 ```
 ./run_project.sh projects/canada projects/canada/in projects/canada/out
 ```
 
-`run_project` runs the gen_heatmap command within the heatmap docker container.
+`run_project` - runs the gen_heatmap command within the heatmap docker container for a given project
 
 
 Usage: `run_project [PATH_TO_PROJECT] [INPUT_PATH] [OUTPUT_PATH]`
 
-The current project is accessible within the container at the path `/projects/current`.  config.json files will need to use this path.
+When run, Docker mounts the project directory into the container and makes it accessible at the internal path of `/projects/current`.  Your config.json file may/can use this internal current project path for input and output.
 
 Arguments:
 * PATH_TO_PROJECT - project directory containing config.json file
