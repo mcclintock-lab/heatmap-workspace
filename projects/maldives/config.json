@@ -1,0 +1,19 @@
+{
+    "runs": [
+
+        {"infile": "/work/input/utilities.shp"}
+    ],
+
+    "default": {
+        "outPath": "/work/output",
+        "outResolution": 100,
+        "areaFactor": 1,
+        "uniqueIdField": "resp_id",
+        "importanceField": "weight",
+        "logToFile": true,
+        "allTouchedSmall": true,
+        "overwrite": true
+    }
+}
+
+

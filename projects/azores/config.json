@@ -1,0 +1,23 @@
+{
+    "runs": [
+        {"infile": "/data/in/commercial_fishing_santa_maria.shp"},
+        {"infile": "/data/in/recreational_fishing_santa_maria.shp"},
+        {"infile": "/data/in/recreation_sports_and_tourism_santa_maria.shp"},
+        {"infile": "/data/in/scientific_research_technological_development_and_environmental_monitoring_santa_maria.shp"},
+        {"infile": "/data/in/touristic_fishing_santa_maria.shp"},
+        {"infile": "/data/in/underwater_cultural_heritage_santa_maria.shp"}
+    ],
+
+    "default": {
+        "outPath": "/data/out",
+        "outResolution": 20,
+        "areaFactor": 1,
+        "uniqueIdField": "rspns_d",
+        "importanceField": "weight",
+        "logToFile": true,
+        "allTouchedSmall": true,
+        "overwrite": true
+    }
+}
+
+

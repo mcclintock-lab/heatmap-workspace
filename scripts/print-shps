@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+# print shapes in json config format
+
+import glob
+import os
+
+dir = input("input path >")
+
+print("---")
+
+shps = glob.glob(f"{dir}/*shp")
+
+for i in range(0, len(shps)):
+    
+    shp = os.path.basename(shps[i])
+
+    if i < len(shps)-1:
+        print(f'{{"infile": "/data/in/{shp}"}},')
+    else:
+        print(f'{{"infile": "/data/in/{shp}"}}')
+
+print("---")
+
