@@ -1,12 +1,12 @@
 {
     "runs": [
 
-        {"infile": "/work/input/utilities.shp"}
+        {"infile": "/data/in/construct.shp"}
     ],
 
     "default": {
-        "outPath": "/work/output",
-        "outResolution": 100,
+        "outPath": "/data/out",
+        "outResolution": 30,
         "areaFactor": 1,
         "uniqueIdField": "resp_id",
         "importanceField": "weight",

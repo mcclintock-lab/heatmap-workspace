@@ -1,0 +1,3 @@
+100: all_fishing, east, west
+30: winter, bait_inshore
+50: all others

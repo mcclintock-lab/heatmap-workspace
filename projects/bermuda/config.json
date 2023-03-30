@@ -1,0 +1,29 @@
+{
+    "runs": [
+
+        {"infile": "/data/in/concerns_rec_fish.shp"},
+        {"infile": "/data/in/concerns_util_infra.shp"},
+        {"infile": "/data/in/concerns_comm_fish.shp"},
+        {"infile": "/data/in/concerns_sci_cons.shp"},
+        {"infile": "/data/in/suggestions_comm_fish.shp"},
+        {"infile": "/data/in/suggestions_util_infra.shp"},
+        {"infile": "/data/in/suggestions.shp"},
+        {"infile": "/data/in/suggestions_rec_fish.shp"},
+        {"infile": "/data/in/concerns.shp"},
+        {"infile": "/data/in/suggestions_sci_cons.shp"}
+
+    ],
+
+    "default": {
+        "outPath": "/data/out",
+        "outResolution": 50,
+        "areaFactor": 1,
+        "uniqueIdField": "ID",
+        "importanceField": "weight",
+        "logToFile": true,
+        "allTouchedSmall": true,
+        "overwrite": true
+    }
+}
+
+

@@ -1,18 +1,13 @@
 {
     "runs": [
-        {"infile": "/data/in/com_fis_mig.shp"},
-        {"infile": "/data/in/rec_tou_mig.shp"},
-        {"infile": "/data/in/tou_fis_mig.shp"},
-        {"infile": "/data/in/sci_mon_mig.shp"},
-        {"infile": "/data/in/aqu_aqu_mig.shp"},
-        {"infile": "/data/in/und_her_mig.shp"},
-        {"infile": "/data/in/rec_fis_mig.shp"},
-        {"infile": "/data/in/sec_def_mig.shp"}
+
+        {"infile": "/data/in/saomiguel_rec_sports.shp"}
+
     ],
 
     "default": {
         "outPath": "/data/out",
-        "outResolution": 75,
+        "outResolution": 100,
         "areaFactor": 1,
         "uniqueIdField": "rspns_d",
         "importanceField": "weight",
