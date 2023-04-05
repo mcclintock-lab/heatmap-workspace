@@ -1,7 +1,7 @@
 #!/bin/bash
 
-IN=/Users/petermenzies/Library/CloudStorage/Box-Box/SeaSketch/bermuda/filtered-shapes/suggestions_concerns
-OUT=/Users/petermenzies/Library/CloudStorage/Box-Box/SeaSketch/bermuda/heatmaps/suggestions_concerns/weighted
+IN=/Users/petermenzies/Library/CloudStorage/Box-Box/SeaSketch/bermuda/filtered-shapes/commercial_fishing
+OUT=/Users/petermenzies/Library/CloudStorage/Box-Box/SeaSketch/bermuda/heatmaps/commercial_fishing/weighted
 
 ./run_project.sh projects/bermuda $IN $OUT
 
