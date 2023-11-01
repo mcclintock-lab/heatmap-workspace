@@ -1,6 +1,8 @@
 #!/bin/bash
 
-mkdir -p logs
+PATH=$1
 
-rm ./*txt
-mv ./*json ./logs
+mkdir -p $PATH/logs
+
+rm $PATH/*txt
+mv $PATH/*json $PATH/logs

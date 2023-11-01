@@ -9,7 +9,7 @@ dir = input("input path >")
 
 print("---")
 
-shps = glob.glob(f"{dir}/*shp")
+shps = glob.glob(f"{dir}/*fgb")
 
 for i in range(0, len(shps)):
     

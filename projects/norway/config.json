@@ -1,0 +1,1 @@
+{"runs": [{"infile": "/data/in/norway-diving.fgb"}],"default": {"outPath": "/data/out","outResolution":100,"areaFactor": 1,"uniqueIdField":"response_id","importanceField":"value","logToFile": true,"allTouchedSmall":true,"overwrite": true}}
